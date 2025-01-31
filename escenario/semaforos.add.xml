@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2024-06-01 18:56:39 by Eclipse SUMO netedit Version 1.19.0
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/neteditConfiguration.xsd">
+
+    <input>
+        <sumocfg-file value="osm2.sumocfg"/>
+        <additional-files value="osm.poly.add.xml"/>
+        <route-files value="routes.rou.xml"/>
+        <sumo-net-file value="osm.net.xml"/>
+    </input>
+
+    <output>
+        <output.street-names value="true"/>
+    </output>
+
+    <processing>
+        <geometry.min-radius.fix.railways value="false"/>
+        <geometry.max-grade.fix value="false"/>
+        <offset.disable-normalization value="true"/>
+        <lefthand value="0"/>
+    </processing>
+
+    <junctions>
+        <no-turnarounds value="true"/>
+        <junctions.corner-detail value="5"/>
+        <junctions.limit-turn-speed value="5.50"/>
+        <rectangular-lane-cut value="0"/>
+    </junctions>
+
+    <pedestrian>
+        <walkingareas value="0"/>
+    </pedestrian>
+
+    <netedit>
+        <ignore.routeelements value="false"/>
+    </netedit>
+
+</configuration>
+-->
+
+<additional xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/additional_file.xsd">
+    <tlLogic id="semaforos" type="actuated" programID="0" offset="0">
+        <param key="E2_0" value="E1Sensor_E2_0"/>
+        <param key="E2_1" value="E1Sensor_E2_1"/>
+        <param key="E2_2" value="E1Sensor_E2_2"/>
+        <param key="N0_0" value="E1Sensor_N0_0"/>
+        <param key="N0_1" value="E1Sensor_N0_1"/>
+        <param key="N0_2" value="E1Sensor_N0_2"/>
+        <param key="S2_0" value="E1Sensor_S2_0"/>
+        <param key="S2_1" value="E1Sensor_S2_1"/>
+        <param key="S2_2" value="E1Sensor_S2_2"/>
+        <param key="W0_0" value="E1Sensor_W0_0"/>
+        <param key="W0_1" value="E1Sensor_W0_1"/>
+        <param key="W0_2" value="E1Sensor_W0_2"/>
+        <phase duration="40" state="GGrrr" minDur="10" maxDur="90"/>
+        <phase duration="3" state="yyyrr"/>
+        <phase duration="30" state="rrGrr" minDur="5" maxDur="90"/>
+        <phase duration="3" state="ryyyr"/>
+        <phase duration="30" state="rrrGr" minDur="5" maxDur="90"/>
+        <phase duration="3" state="rrryy"/>
+        <phase duration="30" state="rrrrG" minDur="5" maxDur="90"/>
+        <phase duration="3" state="yrrry"/>
+    </tlLogic>
+</additional>

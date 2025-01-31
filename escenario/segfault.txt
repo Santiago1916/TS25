@@ -1,0 +1,3 @@
+Loading net-file from 'osm.net.xml' ... done (21ms).
+Loading additional-files from 'osm.poly.add.xml' ... done (44ms).
+Loading additional-files from 'detectores.add.xml' ... done (17ms).

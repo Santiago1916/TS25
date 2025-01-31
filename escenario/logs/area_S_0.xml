@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2024-12-26 15:05:33 by Eclipse SUMO GUI Version 1.21.0
+<sumoConfiguration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+    <input>
+        <net-file value="osm.net.xml"/>
+        <route-files value="routes.rou.xml"/>
+        <additional-files value="osm.poly.add.xml"/>
+    </input>
+
+    <processing>
+        <ignore-route-errors value="true"/>
+    </processing>
+
+    <routing>
+        <device.rerouting.adaptation-steps value="18"/>
+        <device.rerouting.adaptation-interval value="10"/>
+    </routing>
+
+    <report>
+        <verbose value="true"/>
+        <duration-log.statistics value="true"/>
+        <no-step-log value="false"/>
+    </report>
+
+    <gui_only>
+        <gui-settings-file value="osm.view.xml"/>
+    </gui_only>
+
+</sumoConfiguration>
+-->
+
+<detector xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/det_e2_file.xsd">
+   <interval begin="0.00" end="1674.00" id="Area_S_0" sampledSeconds="6083.22" nVehEntered="106" nVehLeft="105" nVehSeen="106" meanSpeed="1.30" meanTimeLoss="51.95" meanOccupancy="16.88" maxOccupancy="58.50" meanMaxJamLengthInVehicles="2.98" meanMaxJamLengthInMeters="19.56" maxJamLengthInVehicles="12" maxJamLengthInMeters="86.14" jamLengthInVehiclesSum="4994" jamLengthInMetersSum="32739.03" meanHaltingDuration="64.22" maxHaltingDuration="119.00" haltingDurationSum="5073.00" meanIntervalHaltingDuration="64.22" maxIntervalHaltingDuration="119.00" intervalHaltingDurationSum="5073.00" startedHalts="79.00" meanVehicleNumber="3.67" maxVehicleNumber="12" />
+</detector>

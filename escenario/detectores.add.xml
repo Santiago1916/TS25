@@ -1,0 +1,26 @@
+<!-- <additional>
+    <timedEvent type="SaveTLSProgram" sources="semaforos" dest="tls_state.xml"/>
+
+    <!-- Detectores para el semáforo -->
+
+    <inductionLoop id="E1Sensor_E2_0" lane="E2_0" pos="-2.00" period="1.00" file="logs/output_E2_0.xml" friendlyPos="1"/>
+    <inductionLoop id="E1Sensor_E2_1" lane="E2_1" pos="-2.00" period="1.00" file="logs/output_E2_1.xml" friendlyPos="1"/>
+    <inductionLoop id="E1Sensor_E2_2" lane="E2_2" pos="-2.00" period="1.00" file="logs/output_E2_2.xml" friendlyPos="1"/>
+
+    <inductionLoop id="E1Sensor_N0_0" lane="N0_0" pos="-2.00" period="1.00" file="logs/output_N0_0_0.xml" friendlyPos="1"/>
+    <inductionLoop id="E1Sensor_N0_1" lane="N0_1" pos="-2.00" period="1.00" file="logs/output_N0_1.xml" friendlyPos="1"/>
+    <inductionLoop id="E1Sensor_N0_2" lane="N0_2" pos="-2.00" period="1.00" file="logs/output_N0_2.xml" friendlyPos="1"/>
+    
+
+
+    <inductionLoop id="E1Sensor_W0_0" lane="W0_0" pos="-2.00" period="1.00" file="logs/output_W0_0.xml" friendlyPos="1"/>
+    <inductionLoop id="E1Sensor_W0_1" lane="W0_1" pos="-2.00" period="1.00" file="logs/output_W0_1.xml" friendlyPos="1"/>
+    <inductionLoop id="E1Sensor_W0_2" lane="W0_2" pos="-2.00" period="1.00" file="logs/output_W0_2.xml" friendlyPos="1"/>
+    
+    <inductionLoop id="E1Sensor_S2_0" lane="S2_0" pos="-2.00" period="1.00" file="logs/output_S2_0.xml" friendlyPos="1"/>
+    <inductionLoop id="E1Sensor_S2_1" lane="S2_1" pos="-2.00" period="1.00" file="logs/output_S2_1.xml" friendlyPos="1"/>
+    <inductionLoop id="E1Sensor_S2_2" lane="S2_2" pos="-2.00" period="1.00" file="logs/output_S2_2.xml" friendlyPos="1"/>
+    
+    
+
+</additional> -->

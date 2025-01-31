@@ -1,0 +1,22 @@
+<additional>
+    <tlLogic id="semaforos" type="actuated" programID="0" offset="0">
+        <phase duration="38" state="GGGGgggrrrrrrrGGGgggrrrrrrrrrr" minDur="5" maxDur="50"/>
+        <phase duration="3"  state="yyyyyyyrrrrrrryyyyyyrrrrrrrrrr"/>
+        <phase duration="3"  state="rrrrrrrrrrrrrrrrrrrrrrrrrrrrrr"/>
+        <phase duration="38" state="rrrrrrrGggGgggrrrrrrGGgGgGgggg" minDur="5" maxDur="50"/>
+        <phase duration="3"  state="rrrrrrryyyyyyyrrrrrryyyyyyyyyy"/>
+        <phase duration="5"  state="rrrrrrrrrrrrrrrrrrrrrrrrrrrrrr"/>
+        <param key="E2_0" value="Instant_E2_0"/>
+        <param key="E2_1" value="Instant_E2_1"/>
+        <param key="E2_2" value="Instant_E2_2"/>
+        <param key="N0_0" value="Instant_N0_0"/>
+        <param key="N0_1" value="Instant_N0_1"/>
+        <param key="N0_2" value="Instant_N0_2"/>
+        <param key="S2_0" value="Instant_S2_0"/>
+        <param key="S2_1" value="Instant_S2_1"/>
+        <param key="S2_2" value="Instant_S2_2"/>
+        <param key="W0_0" value="Instant_W0_0"/>
+        <param key="W0_1" value="Instant_W0_1"/>
+        <param key="W0_2" value="Instant_W0_2"/>
+    </tlLogic>
+</additional>
